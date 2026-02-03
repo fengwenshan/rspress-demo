@@ -1,0 +1,68 @@
+// 侧边导航栏
+// export type FileSideMeta = {
+//   type: 'file';
+//   name: string;
+//   label?: string;
+//   tag?: string;
+//   overviewHeaders?: number[];
+//   context?: string;
+// };
+
+// export type DirSideMeta = {
+//   type: 'dir';
+//   name: string;
+//   label?: string;
+//   collapsible?: boolean;
+//   collapsed?: boolean;
+//   tag?: string;
+//   overviewHeaders?: number[];
+//   context?: string;
+// };
+
+// export type DirSectionHeaderSideMeta = Omit<DirSideMeta, 'type'> &
+//   Omit<SectionHeaderMeta, 'type'> & { type: 'dir-section-header' };
+
+// export type DividerSideMeta = {
+//   type: 'divider';
+//   dashed?: boolean;
+// };
+
+// export type SectionHeaderMeta = {
+//   type: 'section-header';
+//   label: string;
+//   tag?: string;
+// };
+
+// export type CustomLinkMeta =
+//   | {
+//       // file link
+//       type: 'custom-link';
+//       label: string;
+//       tag?: string;
+//       overviewHeaders?: number[];
+//       context?: string;
+//       link: string;
+//     }
+//   | {
+//       // dir link
+//       type: 'custom-link';
+//       label: string;
+//       tag?: string;
+//       overviewHeaders?: number[];
+//       context?: string;
+//       link?: string;
+//       collapsible?: boolean;
+//       collapsed?: boolean;
+//       items: _CustomLinkMetaWithoutTypeField[];
+//     };
+
+// export type SideMetaItem =
+//   | FileSideMeta
+//   | DirSideMeta
+//   | DirSectionHeaderSideMeta
+//   | DividerSideMeta
+//   | SectionHeaderMeta
+//   | CustomLinkMeta
+//   | string;
+
+

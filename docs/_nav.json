@@ -1,0 +1,8 @@
+// 导航设置
+[
+  {
+    "text": "Guide",
+    "link": "/guides/introduction",
+    "activeMatch": "^/guides/"
+  }
+]
